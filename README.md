@@ -13,7 +13,7 @@ Take a look at each of the code samples below. For each sample, work with your g
 2. How does this piece of code work?
 3. Given this code sample, what can you learn or describe about JavaScript
 
-**NOTE**: The below code is for demonstration purposes only. You wouldn't/shouldn't do this in a real application.
+**NOTE**: The below code is for demonstration purposes only. Typically, when a property begins and ends with `__`, that's a signal to you as a developer not to mess with it. This is sometimes referred to as "syntactic vinegar" - making something difficult to do so we don't do it.  
 
 ### Example 1
 
@@ -51,6 +51,7 @@ fido.__proto__ // Animal {constructor: ƒ, bark: ƒ}
 fido.__proto__.__proto__ // {constructor: ƒ, walk: ƒ}
 fido.bark() // "Woof!"
 fido.walk() // "Walking!"
+fido.__proto__.__proto__.walk() // "Walking!"
 ```
 
 ### Example 3
