@@ -2,8 +2,10 @@
 
 ## Objectives
 
-* Practice reading and reasoning about code
-* Discuss events with out
+* Describe inheritance in general
+* Describe a situation where using inheritance solves a problem
+* Implement one class which inherits all methods from another class
+
 
 ## Exercise
 
