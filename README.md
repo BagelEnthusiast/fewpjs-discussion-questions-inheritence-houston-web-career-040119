@@ -52,8 +52,8 @@ const fido = new Dog()
 fido.__proto__ // Animal {constructor: ƒ, bark: ƒ}
 fido.__proto__.__proto__ // {constructor: ƒ, walk: ƒ}
 fido.bark() // "Woof!"
-fido.walk() // "Walking!"
-fido.__proto__.__proto__.walk() // "Walking!"
+fido.walk() // "Walking..."
+fido.__proto__.__proto__.walk() // "Walking..."
 ```
 
 ### Example 3
